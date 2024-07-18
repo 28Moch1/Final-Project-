@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FILMS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/ef37df50e9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+  
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/Logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutme.html">ABOUT-US</a></li>
+          <li><a href="films.html">FILMS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+        </ul> 
+      </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>STUDIO GHIBLI FILMS!</h1>
+    <p> Here are some of Studio Ghibli's Films! </p>
+
+  </section>
+
+  <!----------- films ----->
+  
+  
+   <section class="film">
+
+     
+     <h1> Spirited Away</h1>
+  
+    <h3> In this animated feature by noted Japanese director Hayao Miyazaki, 
+      10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) 
+      stumble upon a seemingly abandoned amusement park. After her mother and father are turned 
+      into giant pigs, Chihiro meets the mysterious Haku (Miyu Irino), who explains that the park 
+      is a resort for supernatural beings who need a break from their time spent in the earthly realm, 
+      and that she must work there to free herself and her parents.</h3>
+</section>
+
+  <section class="film2">
+     
+     <h1> Howl's Moving Castle</h1>
+  
+    <h3> Sophie (Emily Mortimer) has an uneventful life at her late father's hat shop, but all that changes 
+      when she befriends wizard Howl (Christian Bale), who lives in a magical flying castle. However, 
+      the evil Witch of Waste (Lauren Bacall) takes issue with their budding relationship and casts a 
+      spell on young Sophie, which ages her prematurely. Now Howl must use all his magical talents to 
+      battle the jealous hag and return Sophie to her former youth and beauty.</h3>
+</section>
+
+<section class="film3">
+     
+     <h1> Ponyo </h1>
+  
+    <h3> During a forbidden excursion to see the surface world, a goldfish princess encounters a human boy named Sosuke, 
+      who gives her the name Ponyo. Ponyo longs to become human, and as her friendship with Sosuke grows, 
+      she becomes more humanlike. Ponyo's father brings her back to their ocean kingdom, but so strong is 
+      Ponyo's wish to live on the surface that she breaks free, and in the process, spills a collection of 
+      magical elixirs that endanger Sosuke's village.</h3>
+</section>
+
+  <section class="film4">
+     
+     <h1> The Wind Rises</h1>
+  
+    <h3> A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi (Hideaki Anno), whose storied 
+      career includes the creation of the A6M World War II fighter plane.</h3>
+</section>
+
+
+
+  <!----------------- random ------------>
+  <section class="random">
+    <h1> Reviews </h1>
+    <p> check my different movie reviews here! </p>
+
+    <div class="row">
+      <div class="random-col">
+        <img src="images/Moschino.jpg">
+        <div>
+          <p> Moschino Ko
+          </p>
+          <h3>Howl's Moving Castle</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="random-col">
+        <img src="images/Strike.jpg">
+        <div>
+          <p> Strike
+
+          </p>
+          <h3>The wind rises</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!---- footer ---->
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Contact us in our social media</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+
+  </section>
+
+
+  <!----------------- toggle for menu in cp mode ------------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>

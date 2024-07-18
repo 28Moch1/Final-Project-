@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
       width: 100%;
-      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/HeaderBG.png);
 
   background-position: center;
   background-size: cover;
@@ -168,6 +168,33 @@ h3{
     }
 }
 
+/*----------- members -------*/
+
+.members{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+
+}
+.members-col{
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+}
+.members-col img{
+width: 80%;
+border-radius: 10px;
+}
+.members-col p{
+padding: 0;
+}
+.members-col h3{
+margin-top: 16px;
+margin-bottom: 15px;
+text-align: left;
+}
 
 
 
@@ -221,7 +248,7 @@ h3{
   color:white;
 margin: 100px auto;
 width: 80%;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Ripol.png);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Footer.png);
 background-position: center;
 background-size: auto;
 border-radius: 10px;
@@ -267,8 +294,7 @@ padding: 100px 0;
 .sub-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Ripol.png);
-
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/HeaderBG.png);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -371,29 +397,29 @@ padding: 100px 0;
     box-sizing: border-box;
 }
 
-/*------ execution page ----*/
+/*------ FILMS ----*/
 
 
-.hobby{
+.film{
 
   
    
   color:white;
 margin: 100px auto;
 width: 80%;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Product.png);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/FilmSpirited.png);
 background-position: center;
 background-size: auto;
 border-radius: 10px;
 text-align: center;
 padding: 100px 0;
 }
-.hobby2{
+.film2{
    
   color:white;
 margin: 100px auto;
 width: 80%;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Price.png);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/FilmHowls.png);
 background-position: center;
 background-size: auto;
 border-radius: 10px;
@@ -401,12 +427,12 @@ text-align: center;
 padding: 100px 0;
 }
 
-.hobby3{
+.film3{
    
   color:white;
 margin: 100px auto;
 width: 80%;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Place.png);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/FilmPonyo.png);
 background-position: center;
 background-size: auto;
 border-radius: 10px;
@@ -414,12 +440,12 @@ text-align: center;
 padding: 100px 0;
 }
 
-.hobby4{
+.film4{
    
   color:white;
 margin: 100px auto;
 width: 80%;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Promotion.png);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/FilmWind.png);
 background-position: center;
 background-size: auto;
 border-radius: 10px;
@@ -427,13 +453,13 @@ text-align: center;
 padding: 100px 0;
 }
 
-.hobby h1{
+.film h1{
   color: #fff;
   margin-bottom: 40px;
   padding: 0;
 }
 
-.hobby h3{
+.film h3{
   text-align: center;
 }
 
